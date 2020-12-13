@@ -1,0 +1,6 @@
+2020/12/13 11:05:21 [error] 2068#4760: *1 CreateFile() "C:\VSCode\nginx-1.19.5/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/12/13 11:05:44 [error] 2068#4760: *1 CreateFile() "C:\VSCode\nginx-1.19.5/html/fghfghfg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /fghfghfg HTTP/1.1", host: "127.0.0.1"
+2020/12/13 11:06:00 [notice] 5632#2564: signal process started
+2020/12/13 11:06:03 [error] 2068#4760: *2 CreateFile() "C:\VSCode\nginx-1.19.5/html/fghfghfg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /fghfghfg HTTP/1.1", host: "127.0.0.1"
+2020/12/13 11:07:23 [error] 6132#5796: *1 CreateFile() "C:\VSCode\nginx-1.19.5/html/fghfghfg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /fghfghfg HTTP/1.1", host: "127.0.0.1"
+2020/12/13 11:07:32 [notice] 2564#5632: signal process started
