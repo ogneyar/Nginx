@@ -4,3 +4,6 @@
 127.0.0.1 - - [13/Dec/2020:11:05:44 +0300] "GET /fghfghfg HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400"
 127.0.0.1 - - [13/Dec/2020:11:06:03 +0300] "GET /fghfghfg HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400"
 127.0.0.1 - - [13/Dec/2020:11:07:23 +0300] "GET /fghfghfg HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400"
+127.0.0.1 - - [14/Dec/2020:09:33:15 +0300] "GET / HTTP/1.1" 200 637 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400"
+127.0.0.1 - - [14/Dec/2020:09:33:15 +0300] "GET /favicon.ico HTTP/1.1" 404 555 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400"
+127.0.0.1 - - [14/Dec/2020:09:33:28 +0300] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400"
