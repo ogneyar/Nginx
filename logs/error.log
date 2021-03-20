@@ -17,3 +17,43 @@
 2021/02/02 16:36:06 [notice] 4284#5648: signal process started
 2021/03/20 12:14:21 [error] 5140#5232: *1 CreateFile() "C:\VSCode\Nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
 2021/03/20 14:47:39 [notice] 1756#2848: signal process started
+2021/03/20 21:37:19 [notice] 5268#5000: signal process started
+2021/03/20 21:37:31 [error] 1736#3536: *13 CreateFile() "C:\VSCode\Nginx/html/test/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2021/03/20 21:38:16 [notice] 3128#2380: signal process started
+2021/03/20 21:38:16 [error] 3128#2380: CreateFile() "C:\VSCode\Nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/03/20 21:38:22 [notice] 4260#4220: signal process started
+2021/03/20 21:38:22 [error] 4260#4220: CreateFile() "C:\VSCode\Nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/03/20 21:38:28 [error] 1736#3536: *27 CreateFile() "C:\VSCode\Nginx/html/test/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2021/03/20 21:38:31 [error] 1736#3536: *27 CreateFile() "C:\VSCode\Nginx/html/test/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2021/03/20 21:39:10 [notice] 1572#4988: signal process started
+2021/03/20 21:39:17 [error] 1736#3536: *32 CreateFile() "C:\VSCode\Nginx/html/test/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2021/03/20 21:39:33 [notice] 4592#5764: signal process started
+2021/03/20 21:39:44 [error] 1736#3536: *36 CreateFile() "C:\VSCode\Nginx/html/test/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2021/03/20 21:39:46 [error] 1736#3536: *40 CreateFile() "C:\VSCode\Nginx/html/test/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2021/03/20 21:40:03 [alert] 300#3900: OpenEvent("ngx_master_5228") failed (2: The system cannot find the file specified)
+2021/03/20 21:40:06 [alert] 5092#2464: OpenEvent("ngx_master_4412") failed (2: The system cannot find the file specified)
+2021/03/20 21:40:25 [error] 3712#5068: *1 CreateFile() "C:\VSCode\Nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/03/20 21:41:15 [notice] 2344#3800: signal process started
+2021/03/20 21:42:04 [emerg] 2416#4968: unknown directive "locati" in C:\VSCode\Nginx/conf/nginx.conf:54
+2021/03/20 21:42:11 [emerg] 6064#3180: unknown directive "locati" in C:\VSCode\Nginx/conf/nginx.conf:54
+2021/03/20 21:42:11 [alert] 4876#3940: worker process 6064 exited with code 1
+2021/03/20 21:42:11 [alert] 4876#3940: could not respawn worker
+2021/03/20 21:42:17 [emerg] 4188#4236: unknown directive "locati" in C:\VSCode\Nginx/conf/nginx.conf:54
+2021/03/20 21:42:17 [alert] 4876#3940: worker process 4188 exited with code 1
+2021/03/20 21:42:17 [alert] 4876#3940: could not respawn worker
+2021/03/20 21:42:40 [emerg] 3212#1744: unknown directive "locati" in C:\VSCode\Nginx/conf/nginx.conf:54
+2021/03/20 21:43:30 [notice] 5852#3360: signal process started
+2021/03/20 21:43:30 [error] 5852#3360: OpenEvent("Global\ngx_stop_4876") failed (2: The system cannot find the file specified)
+2021/03/20 21:43:44 [notice] 1900#5092: signal process started
+2021/03/20 21:43:44 [error] 1900#5092: OpenEvent("Global\ngx_stop_4876") failed (2: The system cannot find the file specified)
+2021/03/20 21:43:51 [error] 3180#5164: *1 CreateFile() "C:\VSCode\Nginx/html/static/js/bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/bundle.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:43:51 [error] 3180#5164: *3 CreateFile() "C:\VSCode\Nginx/html/static/js/vendors~main.chunk.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/vendors~main.chunk.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:43:51 [error] 3180#5164: *1 CreateFile() "C:\VSCode\Nginx/html/static/js/main.chunk.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/main.chunk.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:44:11 [error] 3180#5164: *5 CreateFile() "C:\VSCode\Nginx/html/static/js/bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/bundle.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:44:11 [error] 3180#5164: *6 CreateFile() "C:\VSCode\Nginx/html/static/js/vendors~main.chunk.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/vendors~main.chunk.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:44:11 [error] 3180#5164: *5 CreateFile() "C:\VSCode\Nginx/html/static/js/main.chunk.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/main.chunk.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:44:13 [error] 3180#5164: *5 CreateFile() "C:\VSCode\Nginx/html/static/js/bundle.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/bundle.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:44:13 [error] 3180#5164: *6 CreateFile() "C:\VSCode\Nginx/html/static/js/vendors~main.chunk.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/vendors~main.chunk.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:44:13 [error] 3180#5164: *8 CreateFile() "C:\VSCode\Nginx/html/static/js/main.chunk.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/main.chunk.js HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:44:14 [error] 3180#5164: *8 CreateFile() "C:\VSCode\Nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/test/"
+2021/03/20 21:44:22 [notice] 1840#5068: signal process started
